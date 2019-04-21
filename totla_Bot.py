@@ -59,7 +59,7 @@ def Decide(listen):
 
     #see what user said is in which list or not
     if listen in hi_List:
-        print("Resonse in Hi list")
+        print("Response in Hi list")
         Respond("Hi there, Good to see you.")
 
     elif listen in bye_List:
